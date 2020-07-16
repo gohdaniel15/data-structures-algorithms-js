@@ -19,3 +19,8 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/array/tests/array.test.js)
         2. [String Reverse Test](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/array/stringReverse.test.js)
         3. [Merge Sorted Arrays](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/array/tests/mergeSortedArrays.test.js)
+2. [Hash Tables](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/HashTables)
+    1. Source files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/src/HashTable.ts)
+    2. Test files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/tests/HashTable.test.js)
