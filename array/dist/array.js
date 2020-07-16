@@ -1,11 +1,10 @@
-"use strict";
-class MyArray {
+export default class MyArray {
     constructor() {
         this.length = 0;
         this.data = {};
     }
     get(index) {
-        this.data[index];
+        return this.data[index];
     }
     push(item) {
         this.data[this.length] = item;

@@ -1,4 +1,4 @@
-class MyArray {
+export default class MyArray {
   length: number
   data: { [key: number]: any }
 
@@ -8,7 +8,7 @@ class MyArray {
   }
 
   get(index:number): any {
-    this.data[index]
+    return this.data[index]
   }
 
   push(item:any): number {
@@ -33,6 +33,7 @@ class MyArray {
     return item
   }
 
+  // Removes the item at specified `index` and shift all succeeding items to the left
   shiftItems(index: number) {
     for (let i=index; i < this.length -1; i++) {
       this.data[i] = this.data[i+1]
