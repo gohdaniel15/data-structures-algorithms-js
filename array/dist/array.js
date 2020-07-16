@@ -22,6 +22,7 @@ export default class MyArray {
         this.shiftItems(index);
         return item;
     }
+    // Removes the item at specified `index` and shift all succeeding items to the left
     shiftItems(index) {
         for (let i = index; i < this.length - 1; i++) {
             this.data[i] = this.data[i + 1];
