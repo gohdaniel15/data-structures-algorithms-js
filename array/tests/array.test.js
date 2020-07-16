@@ -1,5 +1,5 @@
 import test from 'ava'
-import MyArray from './dist/array.js'
+import MyArray from '../dist/array.js'
 
 test.beforeEach(t => {
   const array = new MyArray()
