@@ -4,9 +4,9 @@ export function firstRecurringCharacter(array) {
     const hashMap = new Map;
     for (let i = 0; i < array.length; i++) {
         const item = array[i];
-        if (hashMap.get(item))
+        if (hashMap.get(item) !== undefined)
             return item;
-        hashMap.set(item, item);
+        hashMap.set(item, i);
     }
     return undefined;
 }
