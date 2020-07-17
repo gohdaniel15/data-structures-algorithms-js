@@ -22,5 +22,7 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
 2. [Hash Tables](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/HashTables)
     1. Source files
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/src/HashTable.ts)
+        2. [First Recurring Character](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/src/firstRecurringCharacter.ts)
     2. Test files
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/tests/HashTable.test.js)
+        2. [First Recurring Character](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/tests/firstRecurringCharacter.test.js)
