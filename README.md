@@ -26,3 +26,8 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
     2. Test files
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/tests/HashTable.test.js)
         2. [First Recurring Character](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/HashTables/tests/firstRecurringCharacter.test.js)
+3. [Linked Lists](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/LinkedList)
+    1. Source files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/LinkedList/src/LinkedList.ts)
+    2. Test files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/LinkedList/tests/LinkedList.test.js)
