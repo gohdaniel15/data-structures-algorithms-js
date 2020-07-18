@@ -2,6 +2,7 @@ export class ListNode {
     constructor(value) {
         this.value = value;
         this.next = null;
+        this.previous = null;
     }
 }
 export class LinkedList {
@@ -12,14 +13,14 @@ export class LinkedList {
     }
     append(value) {
         const newNode = new ListNode(value);
-        this.tail.next = newNode;
+        this._connectNodes(this.tail, newNode);
         this.tail = newNode;
         this.length++;
         return this.tail;
     }
     prepend(value) {
         const newNode = new ListNode(value);
-        newNode.next = this.head;
+        this._connectNodes(newNode, this.head);
         this.head = newNode;
         this.length++;
         return this.head;
@@ -32,8 +33,8 @@ export class LinkedList {
         const newNode = new ListNode(value);
         const nodeBeforeIndex = this._getNodeAtIndex(index - 1);
         const currentNode = nodeBeforeIndex.next;
-        nodeBeforeIndex.next = newNode;
-        newNode.next = currentNode;
+        this._connectNodes(nodeBeforeIndex, newNode);
+        this._connectNodes(newNode, currentNode);
         this.length++;
         return newNode;
     }
@@ -41,15 +42,12 @@ export class LinkedList {
         if (index >= this.length)
             return -1;
         if (index === 0) {
-            const nodeToRemove = this.head;
-            const nodeAfterIndex = nodeToRemove.next;
-            this.head = nodeAfterIndex;
+            this.head = this.head.next;
         }
         else {
             const nodeBeforeIndex = this._getNodeAtIndex(index - 1);
             const nodeToRemove = nodeBeforeIndex.next;
-            const nodeAfterIndex = nodeToRemove.next;
-            nodeBeforeIndex.next = nodeAfterIndex;
+            this._connectNodes(nodeBeforeIndex, nodeToRemove.next);
         }
         this.length--;
         return this.length;
@@ -73,5 +71,13 @@ export class LinkedList {
             counter++;
         }
         return currentNode;
+    }
+    _connectNodes(node1, node2) {
+        if (node1 === null && node2 === null)
+            return;
+        if (node1)
+            node1.next = node2;
+        if (node2)
+            node2.previous = node1;
     }
 }

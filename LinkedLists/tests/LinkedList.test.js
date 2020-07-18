@@ -15,7 +15,8 @@ test('#append appends to the tail', t => {
   
   t.is(linkedList.head.value, 5)
   t.is(linkedList.tail.value, 3)
-  t.deepEqual(linkedList.head.next, new ListNode(3))
+  t.deepEqual(linkedList.head.next.value, 3)
+  t.deepEqual(linkedList.tail.previous.value, 5)
 })
 
 test('#prepend inserts to the head', t => {
@@ -23,9 +24,10 @@ test('#prepend inserts to the head', t => {
   linkedList.prepend(3)
   
   t.is(linkedList.head.value, 3)
-  t.deepEqual(linkedList.head.next, new ListNode(5))
+  t.deepEqual(linkedList.head.next.value, 5)
   t.is(linkedList.tail.value, 5)
   t.deepEqual(linkedList.tail.next, null)
+  t.deepEqual(linkedList.tail.previous.value, 3)
 })
 
 test('#insert inserts (sorry) at the specified index in the start', t => {
