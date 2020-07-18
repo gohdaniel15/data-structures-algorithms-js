@@ -94,3 +94,20 @@ test('#remove removes at the index specified in the end', t => {
 
   t.deepEqual(linkedList.printList(), [5,3,5])
 })
+
+test('#printList() prints values from left to right', t => {
+  const linkedList = new LinkedList(5)
+  linkedList.append(3)
+  linkedList.append(5)
+  linkedList.append(8)
+
+  t.deepEqual(linkedList.printList('desc'), [8,5,3,5])
+})
+test('#printList(desc) prints values from right to left', t => {
+  const linkedList = new LinkedList(5)
+  linkedList.append(3)
+  linkedList.append(5)
+  linkedList.append(8)
+
+  t.deepEqual(linkedList.printList(), [5,3,5,8])
+})

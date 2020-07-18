@@ -69,14 +69,14 @@ export class LinkedList {
     return this.length
   }
 
-  printList(): Array<any> {
+  printList(order: 'asc' | 'desc' = 'asc'): Array<any> {
     const resultArray = []
 
-    let currentNode = this.head
+    let currentNode = order === 'asc' ? this.head : this.tail
     do {
       resultArray.push(currentNode.value)
 
-      currentNode = currentNode.next
+      currentNode = order === 'asc' ? currentNode.next : currentNode.previous
     } while (currentNode !== null)
 
     return resultArray
