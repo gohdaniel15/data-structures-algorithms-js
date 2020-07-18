@@ -69,6 +69,23 @@ export class LinkedList {
     return this.length
   }
 
+  reverse(): LinkedList {
+    let previous = null
+    let current = this.head
+    let savedPointer = null
+    this.tail = this.head
+
+    while (current) {
+      savedPointer = current.next
+      current.next = previous
+      previous = current
+      current = savedPointer
+    }
+
+    this.head = previous
+    return this
+  }
+
   printList(order: 'asc' | 'desc' = 'asc'): Array<any> {
     const resultArray = []
 

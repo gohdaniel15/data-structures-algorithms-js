@@ -52,6 +52,20 @@ export class LinkedList {
         this.length--;
         return this.length;
     }
+    reverse() {
+        let previous = null;
+        let current = this.head;
+        let savedPointer = null;
+        this.tail = this.head;
+        while (current) {
+            savedPointer = current.next;
+            current.next = previous;
+            previous = current;
+            current = savedPointer;
+        }
+        this.head = previous;
+        return this;
+    }
     printList(order = 'asc') {
         const resultArray = [];
         let currentNode = order === 'asc' ? this.head : this.tail;

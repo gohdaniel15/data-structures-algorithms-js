@@ -111,3 +111,13 @@ test('#printList(desc) prints values from right to left', t => {
 
   t.deepEqual(linkedList.printList(), [5,3,5,8])
 })
+
+test('#reverse returns a new linkedList', t => {
+  const linkedList = new LinkedList(1)
+  linkedList.append(2)
+  linkedList.append(3)
+  linkedList.append(4)
+  const newLinkedList = linkedList.reverse()
+
+  t.deepEqual(newLinkedList.printList(), [4,3,2,1])
+})
