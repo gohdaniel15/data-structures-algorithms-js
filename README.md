@@ -31,3 +31,8 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/LinkedList/src/LinkedList.ts)
     2. Test files
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/LinkedList/tests/LinkedList.test.js)
+3. [Stacks](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Stacks)
+    1. Source files
+        1. [Implementation (LinkedList)](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Stacks/src/LinkedListStack.ts)
+    2. Test files
+        1. [Implementation (LinkedList)](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Stacks/tests/LinkedListStack.test.js)
