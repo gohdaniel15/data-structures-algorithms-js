@@ -40,4 +40,9 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
     1. Source files
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Queues/src/Queue.ts)
     2. Test files
-        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Queues/tests/LinkedListStack.test.js)
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Queues/tests/Queue.test.js)
+6. [Trees](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Trees)
+    1. Source files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Trees/src/BinarySearchTree.ts)
+    2. Test files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Trees/tests/BinarySearchTree.test.js)
