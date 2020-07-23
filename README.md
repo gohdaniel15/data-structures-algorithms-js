@@ -46,3 +46,8 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Trees/src/BinarySearchTree.ts)
     2. Test files
         1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Trees/tests/BinarySearchTree.test.js)
+7. [Graphs](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Graphs)
+    1. Source files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Graphs/src/Graph.ts)
+    2. Test files
+        1. [Implementation](https://github.com/gohdaniel15/data-structures-algorithms-js/blob/master/Graphs/tests/Graph.test.js)
