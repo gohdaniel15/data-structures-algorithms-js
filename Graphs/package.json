@@ -1,0 +1,11 @@
+{
+  "name": "HashTables",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^3.10.1",
+    "tsc": "^1.20150623.0"
+  }
+}
