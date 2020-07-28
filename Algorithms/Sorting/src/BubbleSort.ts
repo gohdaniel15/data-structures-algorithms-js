@@ -1,3 +1,5 @@
+import { swap } from './lib/utils.js'
+
 // Time complexity: O(n^2)
 // Space complexity: O(1)
 export default function BubbleSort(input: Array<number>): Array<number> {
@@ -10,14 +12,4 @@ export default function BubbleSort(input: Array<number>): Array<number> {
   }
 
   return input
-}
-
-function swap(
-  array: Array<number>,
-  targetIndex: number,
-  destinationIndex: number
-) {
-  const temp = array[targetIndex]
-  array[targetIndex] = array[destinationIndex]
-  array[destinationIndex] = temp
 }

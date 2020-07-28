@@ -1,3 +1,4 @@
+import { swap } from './lib/utils.js';
 // Time complexity: O(n^2)
 // Space complexity: O(1)
 export default function BubbleSort(input) {
@@ -9,9 +10,4 @@ export default function BubbleSort(input) {
         }
     }
     return input;
-}
-function swap(array, targetIndex, destinationIndex) {
-    const temp = array[targetIndex];
-    array[targetIndex] = array[destinationIndex];
-    array[destinationIndex] = temp;
 }
