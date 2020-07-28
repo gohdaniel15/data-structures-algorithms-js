@@ -58,6 +58,10 @@ It is also an excuse for me to increase my fluency with Typescript and testing w
     1. Source files
         1. [BubbleSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/src/BubbleSort.ts)
         2. [SelectionSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/src/SelectionSort.ts)
+        3. [InsertionSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/src/InsertionSort.ts)
+        3. [MergeSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/src/MergeSort.ts)
     2. Test files
         1. [BubbleSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/tests/BubbleSort.test.js)
         2. [SelectionSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/tests/SelectionSort.test.js)
+        3. [InsertionSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/tests/InsertionSort.test.js)
+        3. [MergeSort](https://github.com/gohdaniel15/data-structures-algorithms-js/tree/master/Algorithms/Sorting/tests/MergeSort.test.js)
